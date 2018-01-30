@@ -1,0 +1,178 @@
+.section-main{
+  background: url("../img/main_bg.jpg");
+  background-size: cover;
+  &__header{
+    padding-top: 50px;
+    padding-bottom: 220px;
+    display: flex;
+    @media (max-width: 992px) {
+      padding-bottom: 60px;
+    }
+    @media (max-width: 1024px) {
+      padding-bottom: 60px;
+    }
+    @media (max-width: 1366px) {
+      padding-bottom: 100px;
+    }
+  }
+  &__textInfo{
+    &-header{
+      font-family: ProximaNB;
+      font-size: 48px;
+    }
+    &-content{
+      margin-bottom: 60px;
+      font-family: ProximaNR;
+      font-size: 18px;
+      @media (max-width: 992px) {
+        color: #fff!important;
+      }
+    }
+    &-button{
+      padding-bottom: 415px;
+      font-family: ProximaNR;
+      font-size: 18px;
+      @media (max-width: 992px) {
+        padding-bottom: 60px;
+
+      }
+      @media (max-width: 1024px) {
+        padding-bottom: 60px;
+      }
+      @media (max-width: 1366px) {
+        padding-bottom: 100px;
+      }
+      &-link{
+        text-decoration: none;
+        padding: 15px 50px;
+        border-radius: 25px;
+        background-image: linear-gradient(16deg, #49007c, #e70088);
+      }
+    }
+    &-arrow{
+      &_down{
+        padding-bottom: 100px;
+        @media (max-width: 992px) {
+          padding-bottom: 20px;
+        }
+        @media (max-width: 1024px) {
+          padding-bottom: 20px;
+        }
+        @media (max-width: 1366px) {
+          padding-bottom: 50px;
+        }
+      }
+    }
+}
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  &__logo {
+    @media (max-width: 768px) {
+      margin: 0 auto;
+    }
+  }
+}
+.nav{
+  display: flex;
+  justify-content: space-around;
+  @media (max-width: 768px) {
+    padding-top: 20px;
+    margin: 0 auto;
+  }
+  &__list{
+    list-style: none;
+    font-family: ProximaNR;
+    &-item{
+      display: inline-block;
+      &-link{
+        color: #000;
+        font-size: 18px;
+        padding-left: 10px;
+        padding-right: 10px;
+        @media (max-width: 992px) {
+          padding-left: 5px;
+          padding-right: 5px;
+        }
+        @media (max-width: 386px) {
+          padding-left: 1px;
+          padding-right: 1px;
+        }
+        &:hover{
+          padding: 10px 20px;
+          border-radius: 20px;
+          background-color: rgba(255,255,255,0);
+          border: solid 1px rgba(0,0,0,.3);
+          text-decoration: none;
+          color: #000;
+        }
+        }
+    }
+    }
+}
+.section-second{
+  background: url("../img/sec2_bg.jpg");
+  background-size: cover;
+  &__codeDesign{
+    padding-top: 150px;
+    padding-bottom: 110px;
+    @media (max-width: 992px) {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+    @media (max-width: 768px) {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    @media (max-width: 504px) {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    &-head{
+      font-family: ProximaNL;
+      font-size: 48px;
+    }
+    &-descr{
+      font-family: ProximaNL;
+      font-size: 18px;
+      padding-bottom: 45px;
+    }
+    &-button{
+      margin-bottom: 415px;
+      font-family: ProximaNR;
+      font-size: 18px;
+      margin-bottom: 0;
+      &-link{
+        text-decoration: none;
+        padding: 15px 50px;
+        border-radius: 25px;
+        background-image: linear-gradient(16deg, #49007c, #e70088);
+      }
+    }
+  }
+}
+.section-third{
+  &__weDo{
+    &-bottom{
+      padding-bottom: 110px;
+    }
+    &-button{
+      padding-bottom: 100px;
+    }
+    &-img{
+      height: 135px;
+    }
+  }
+}
+.button{
+  font-family: ProximaNR;
+  font-size: 18px;
+  &-link{
+    text-decoration: none;
+    padding: 15px 50px;
+    border-radius: 25px;
+    background-image: linear-gradient(16deg, #49007c, #e70088);
+  }
+}
+
